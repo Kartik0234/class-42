@@ -10,11 +10,11 @@ var cars = [];
 
 function preload() {
   backgroundImage = loadImage("./assets/background.png");
-  car1_img = loadImage("../assets/car1.png");
-  car2_img = loadImage("../assets/car2.png");
-  track = loadImage("../assets/track.jpg");
+  car1_img = loadImage("./assets/car1.png");
+  car2_img = loadImage("./assets/car2.png");
+  track = loadImage("./assets/track.jpg");
   fuelImage = loadImage("./assets/fuel.png");
-  blastImage = loadImage("../assets/blast.png");
+  blastImage = loadImage("./assets/blast.png");
   powerCoinImage = loadImage("./assets/goldCoin.png");
   obstacle1Image = loadImage("./assets/obstacle1.png");
   obstacle2Image = loadImage("./assets/obstacle2.png");
